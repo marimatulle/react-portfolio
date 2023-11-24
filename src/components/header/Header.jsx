@@ -45,13 +45,13 @@ const Header = () => {
               ></button>
             </li>
             <li>
-              <a href=""></a>Sobre mim
+              <a href="">Sobre mim</a>
             </li>
             <li>
-              <a href=""></a>Projetos
+              <a href="">Projetos</a>
             </li>
             <li>
-              <a href=""></a>Contato
+              <a href="">Contato</a>
             </li>
           </ul>
         </div>

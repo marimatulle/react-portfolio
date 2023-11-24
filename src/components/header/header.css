@@ -24,7 +24,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-  color: var(--blue);
+  color: var(--purple);
   opacity: 1;
   font-size: 0.9rem;
 }
@@ -49,14 +49,14 @@ header button.mode {
   text-align: center;
 
   color: var(--subtitle);
-  border: 1px solid rgba(244, 165, 96, 0.249);
+  border: 1px solid rgba(189, 79, 204, 0.249);
   transition: 0.2s;
 }
 
 header .icon-menu:hover,
 header button.mode:hover {
   color: var(--title);
-  border: 1px solid rgb(244, 165, 96);
+  border: 1px solid var(--purple);
 }
 
 header .icon-remove {
@@ -77,6 +77,7 @@ header .fixed {
   inset: 0;
   z-index: 11;
   background-color: rgba(40, 40, 48, 0.91);
+  backdrop-filter: blur(4px);
 }
 
 @keyframes mymove {
@@ -125,7 +126,7 @@ header .fixed ul.modal li a {
 }
 
 header .fixed ul.modal li a:hover {
-  color: var(--blue);
+  color: var(--purple);
   opacity: 1;
   font-size: 0.9rem;
 }
