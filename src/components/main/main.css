@@ -18,6 +18,7 @@ main section.card-section.flex {
 }
 
 .card {
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.16), 1px 1px 1px rgba(0, 0, 0, 0.15);
   border: 1px solid rgba(189, 79, 204, 0.249);
   border-radius: 5px;
   transition: 0.3s;
@@ -27,8 +28,13 @@ main section.card-section.flex {
   );
 }
 
+.light .card, .light .card:hover{
+  border: none;
+}
+
 .card:hover {
   border: 1px solid var(--purple);
+  background-color: rgba(246, 246, 246);
   rotate: 1deg;
   scale: 1.01;
   cursor: pointer;

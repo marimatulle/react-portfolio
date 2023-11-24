@@ -35,7 +35,17 @@ html {
 }
 
 .light {
-  --light-mode: #fff;
+  --primary: rgb(250, 250, 250);
+  --secondary: rgb(255, 255, 255);
+  --border: rgba(63, 63, 70, 0.4);
+  
+    --title: rgb(39, 39, 42);
+    --subtitle: rgb(82, 82, 91);
+  
+    --bgHeader: rgb(253, 253, 253);
+    --purple: #6b3fa0;
+  
+    --icon-hover: #333;
 }
 
 body {
