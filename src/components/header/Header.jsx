@@ -24,7 +24,6 @@ const Header = () => {
             <a href="">Projetos</a>
           </li>
           <li>
-            <a href="">Contato</a>
           </li>
         </ul>
       </nav>
@@ -51,7 +50,6 @@ const Header = () => {
               <a href="">Projetos</a>
             </li>
             <li>
-              <a href="">Contato</a>
             </li>
           </ul>
         </div>
