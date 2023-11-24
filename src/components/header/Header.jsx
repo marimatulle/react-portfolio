@@ -37,17 +37,17 @@ const Header = () => {
           <ul className="modal">
             <li>
               <button
-                className="icon-remove"
+                className="icon-cross"
                 onClick={() => {
                   setShowModal(false);
                 }}
               ></button>
             </li>
             <li>
-              <a href="">Sobre mim</a>
+              <a href="#about">Sobre mim</a>
             </li>
             <li>
-              <a href="">Projetos</a>
+              <a href="#projects">Projetos</a>
             </li>
             <li>
             </li>

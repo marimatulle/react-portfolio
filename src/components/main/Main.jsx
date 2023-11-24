@@ -32,7 +32,7 @@ const Main = () => {
   ];
 
   return (
-    <main className="flex">
+    <main id="projects" className="flex">
       <section className="flex card-section">
         {cardData.map((item, index) => (
           <article key={index} className="card">

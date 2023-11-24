@@ -5,7 +5,7 @@ const Hero = () => {
   const githubURL = "coloque_seu_github_aqui";
 
   return (
-    <section className="hero flex">
+    <section id="about" className="hero flex">
       <div className="left-section">
         <div className="parent-avatar flex">
           <img src="./memoji.png" className="avatar" alt="" />

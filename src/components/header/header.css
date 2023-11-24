@@ -59,13 +59,13 @@ header button.mode:hover {
   border: 1px solid var(--purple);
 }
 
-header .icon-remove {
+header .icon-cross {
   font-size: 1.3rem;
   color: var(--subtitle);
   transition: 0.3s;
 }
 
-header .icon-remove:hover {
+header .icon-cross:hover {
   font-size: 1.6rem;
   color: crimson;
   rotate: 180deg;
