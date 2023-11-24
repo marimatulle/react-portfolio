@@ -1,0 +1,77 @@
+main.flex {
+  justify-content: center;
+  align-items: center;
+}
+
+.card-section {
+  display: flex;
+  gap: 2.64rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 1. card */
+main section.card-section.flex {
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 2rem;
+}
+
+.card {
+  border: 1px solid rgba(189, 79, 204, 0.249);
+  border-radius: 5px;
+  transition: 0.3s;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+}
+
+.card:hover {
+  border: 1px solid var(--purple);
+  rotate: 1deg;
+  scale: 1.01;
+  cursor: pointer;
+}
+
+.card img {
+  border-radius: 5px;
+  width: 300px;
+  height: auto;
+}
+
+.card .box {
+  padding: 1rem 0.4rem;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .box .title {
+  color: var(--title);
+}
+
+.card .box .subtitle {
+  color: var(--subtitle);
+  font-size: 0.8rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.1rem;
+}
+
+.card .box .icons {
+  justify-content: space-between;
+}
+
+.card .icon-github,
+.card .icon-link {
+  font-size: 1.2rem;
+  color: var(--subtitle);
+}
+
+.card .icon-github:hover,
+.card .icon-link:hover {
+  font-size: 1.25rem;
+  color: var(--icon-hover);
+  cursor: pointer;
+}

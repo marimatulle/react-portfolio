@@ -1,6 +1,9 @@
 import "./hero.css";
 
 const Hero = () => {
+  const linkedinURL = "coloque_seu_linkedin_aqui";
+  const githubURL = "coloque_seu_github_aqui";
+
   return (
     <section className="hero flex">
       <div className="left-section">
@@ -18,8 +21,12 @@ const Hero = () => {
         </p>
 
         <div className="all-icons flex">
-          <div className="icon icon-github"></div>
-          <div className="icon icon-linkedin"></div>
+          <a href={'https://github.com/marimatulle'} target="_blank" rel="noopener noreferrer">
+            <div className="icon icon-github"></div>
+          </a>
+          <a href={'https://www.linkedin.com/in/marina-matulle-24b445248/'} target="_blank" rel="noopener noreferrer">
+            <div className="icon icon-linkedin"></div>
+          </a>
         </div>
       </div>
 
