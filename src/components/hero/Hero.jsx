@@ -16,9 +16,9 @@ const Hero = () => {
         <h1 className="title">Marina Matulle: Desenvolvedora Full Stack</h1>
         <p className="subtitle">
           Oi, eu sou a Marina! Sou uma desenvolvedora Full Stack apaixonada por
-          tecnologia e inovação. Durante minha jornada na programação, já
-          trabalhei com: JavaScript, Java, React, Angular, Ionic, Node e Spring
-          Boot. Além da programação, também gosto muito do motion design, no
+          tecnologia e inovação. Atualmente sou acadêmica de Análise e Desenvolvimento de Sistemas.
+          Durante minha jornada na programação, já trabalhei com: JavaScript, Java, React, Angular, 
+          Ionic, Node e Spring Boot. Além da programação, também gosto muito do motion design, no
           qual possuo experiência utilizando a ferramenta Adobe After Effects.
         </p>
 
